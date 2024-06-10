@@ -63,6 +63,7 @@ public class ProceduresServiceImpl implements ProceduresService {
 		{
 			Procedures fromDB  = o.get();
 			fromDB.setName(procedure.getName());
+			fromDB.setDescription(procedure.getDescription());
 			
 			return repository.save(fromDB);
 		}

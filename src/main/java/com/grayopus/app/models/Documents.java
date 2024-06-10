@@ -41,5 +41,5 @@ public class Documents {
     
     @JsonIgnoreProperties({"hibernateLazyInitializer", "handler"})
     @OneToMany(cascade = CascadeType.ALL, fetch = FetchType.LAZY)
-    private List<DeficiencyChecks> deficiencyCheckList = new ArrayList<DeficiencyChecks>();
+    private List<DeficiencyChecks> deficiencyChecks = new ArrayList<DeficiencyChecks>();
 }

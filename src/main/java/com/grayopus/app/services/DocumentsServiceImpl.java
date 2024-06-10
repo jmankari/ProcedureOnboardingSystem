@@ -64,6 +64,7 @@ public class DocumentsServiceImpl implements DocumentsService {
         {
             Documents fromDB  = o.get();
             fromDB.setName(document.getName());
+            fromDB.setType(document.getType());
 
             return repository.save(fromDB);
         }

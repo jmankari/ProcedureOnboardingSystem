@@ -89,7 +89,7 @@
 					"response": []
 				},
 				{
-					"name": "Get based on ID",
+					"name": "GetbasedonID",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -158,7 +158,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"id\"             :     1,\r\n    \"name\"           :    \"procedure1\",\r\n    \"description\"    :    \"everything urgent\",\r\n    \"documentsList\": [{\r\n                       \"id\"          :  1,                       \r\n                       \"name\"        : \"Documenrs1\",\r\n                       \"type\"        : \"\"\r\n                     },\r\n                     {\r\n                       \"id\"          :  2,                       \r\n                       \"name\"        : \"Documenrs2\",\r\n                       \"type\"        : \"\"\r\n                     }]\r\n}",
+							"raw": "{\r\n    \"name\"           :    \"procedure1\",\r\n    \"description\"    :    \"everything urgently required\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -335,7 +335,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"procedures\"             :      {\r\n                                             \"id\"         :        1,\r\n                                             \"name\"       :       \"procedure1\",\r\n                                             \"description\":       \"everything urgent\"\r\n                                    },\r\n    \"name\"                   :           \"Documents1\",\r\n    \"type\"                   :           \"\"\r\n}",
+							"raw": "{\r\n    \"procedures\"             :      {\r\n                                             \"id\"         :        1,\r\n                                             \"name\"       :       \"procedure1\",\r\n                                             \"description\":       \"everything urgently required\"\r\n                                    },\r\n    \"name\"                   :           \"Documents1\",\r\n    \"type\"                   :           \"\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -365,7 +365,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"procedures\"             :      {\r\n                                             \"id\"         :        1,\r\n                                             \"name\"       :       \"procedure1\",\r\n                                             \"description\":       \"everything urgent\"\r\n                                    },\r\n    \"name\"                   :           \"Documents2\",\r\n    \"type\"                   :           \"\"\r\n}",
+							"raw": "{\r\n    \"procedures\"             :      {\r\n                                             \"id\"         :        1,\r\n                                             \"name\"       :       \"procedure1\",\r\n                                             \"description\":       \"everything urgently required\"\r\n                                    },\r\n    \"name\"                   :           \"Documents2\",\r\n    \"type\"                   :           \"\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -752,7 +752,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"document\"     : {\r\n                        \"id\": 2,\r\n                        \"name\"      : \"Documents2\",\r\n                        \"type\"      : \"\"\r\n                     },\r\n    \"name\"         : \"DeficiencyChecks1\"\r\n}",
+							"raw": "{\r\n    \"name\"         : \"DeficiencyChecks22\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -760,7 +760,7 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:1111/ProcedureOnboardingSystem/DeficiencyChecks/1",
+							"raw": "http://localhost:1111/ProcedureOnboardingSystem/DeficiencyChecks/2",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -769,7 +769,7 @@
 							"path": [
 								"ProcedureOnboardingSystem",
 								"DeficiencyChecks",
-								"1"
+								"2"
 							]
 						}
 					},
@@ -790,7 +790,7 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:1111/ProcedureOnboardingSystem/DeficiencyChecks/1",
+							"raw": "http://localhost:1111/ProcedureOnboardingSystem/DeficiencyChecks/6",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -799,7 +799,7 @@
 							"path": [
 								"ProcedureOnboardingSystem",
 								"DeficiencyChecks",
-								"1"
+								"6"
 							]
 						}
 					},

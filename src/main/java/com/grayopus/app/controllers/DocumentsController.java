@@ -78,6 +78,7 @@ public class DocumentsController {
     public Documents add(@Valid @RequestBody Documents document) throws ParseException {
 
         Documents savedE = service.save(document);
+        
         LOGGER.info("Saved successfully ID:"+savedE.getId());
         return savedE;
     }
@@ -87,6 +88,7 @@ public class DocumentsController {
                              @Valid @RequestBody Documents document) throws NullPointerException, ParseException {
 
         Documents savedE = service.update(id, document);
+        
         return savedE;
     }
 

@@ -35,5 +35,5 @@ public class Procedures {
 	
 	@JsonIgnoreProperties({"hibernateLazyInitializer", "handler"})
 	@OneToMany(cascade = CascadeType.ALL, fetch = FetchType.LAZY)
-	private List<Documents> documentsList = new ArrayList<Documents>();
+	private List<Documents> documents = new ArrayList<Documents>();
 }
